@@ -2,19 +2,11 @@
 <html>
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Bay Area Family Hiking Adventures</title>
 
 <link rel="stylesheet" href="style.css">
-
-<link
-rel="stylesheet"
-href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-/>
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 </head>
 
@@ -22,49 +14,14 @@ href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
 
 <header>
 
-<h1>🥾 Bay Area Family Adventures</h1>
-
-<p>24 Hikes • 12 Months • Sunday Tradition</p>
+<h1>🥾 Bay Area Sunday Adventures</h1>
+<p>24 Family Hikes • 3-5 Miles • Epic Views</p>
 
 </header>
 
-<section class="stats">
-
-<div class="stat">
-<h2 id="completed">0</h2>
-<p>Hikes Done</p>
-</div>
-
-<div class="stat">
-<h2 id="miles">0</h2>
-<p>Miles Hiked</p>
-</div>
-
-<div class="stat">
-<h2 id="elevation">0</h2>
-<p>Feet Climbed</p>
-</div>
-
-</section>
-
-<section>
-
-<button onclick="surpriseHike()" class="surprise">
-🎲 Surprise Sunday Hike
-</button>
-
-</section>
-
-<section>
-
-<div id="map"></div>
-
-</section>
-
-<section id="hikes"></section>
+<div class="container" id="app"></div>
 
 <script src="script.js"></script>
 
 </body>
 </html>
-
