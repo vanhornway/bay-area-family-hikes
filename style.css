@@ -1,80 +1,66 @@
 body{
 font-family:Arial;
 margin:0;
-background:#f5f7f6;
+background:linear-gradient(#d9f0e6,#ffffff);
 }
 
 header{
-background:#1f6f5c;
+background:#1b5e20;
 color:white;
+padding:25px;
+text-align:center;
+}
+
+.container{
+max-width:900px;
+margin:auto;
 padding:20px;
-text-align:center;
 }
 
-.stats{
-display:flex;
-justify-content:space-around;
-padding:15px;
+.season{
+margin-top:40px;
 }
 
-.stat{
-background:white;
-padding:10px;
-border-radius:8px;
-width:30%;
-text-align:center;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
-}
-
-#map{
-height:350px;
-margin:20px;
-border-radius:12px;
-}
-
-.surprise{
-display:block;
-margin:20px auto;
-padding:12px 20px;
-background:#ff914d;
-border:none;
-border-radius:10px;
-font-size:16px;
-color:white;
-}
+.spring h2{color:#4caf50;}
+.summer h2{color:#ff9800;}
+.fall h2{color:#d84315;}
+.winter h2{color:#1565c0;}
 
 .card{
+
 background:white;
-margin:15px;
-padding:15px;
 border-radius:12px;
-box-shadow:0 3px 10px rgba(0,0,0,0.1);
+padding:15px;
+margin:15px 0;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.15);
+
 }
 
 .card h3{
 margin-top:0;
 }
 
-.details{
-font-size:14px;
-color:#444;
+.links a{
+display:block;
+margin:5px 0;
+color:#1565c0;
+text-decoration:none;
 }
 
-.photo{
+.links a:hover{
+text-decoration:underline;
+}
+
+.details{
+font-size:14px;
 margin-top:10px;
 }
 
 @media(max-width:700px){
 
-.stats{
-flex-direction:column;
-align-items:center;
-}
-
-.stat{
-width:80%;
-margin:5px;
+.card{
+font-size:16px;
 }
 
 }
-
