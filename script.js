@@ -95,6 +95,38 @@ const hikes = {
         ["Foothills Lake", "https://maps.google.com/?q=Foothills+Lake"],
         ["Downtown Los Altos", "https://maps.google.com/?q=Los+Altos+Downtown"]
       ]
+    },
+    {
+      name: "Serpentine Sylvan Edgewood Sunset Loop",
+      distance: "3.6 mi",
+      elevation: "580 ft",
+      coords: [37.467, -122.287],
+      alltrails: "https://www.alltrails.com/trail/us/california/serpentine-sylvan-edgewod-and-sunset-trails-loop",
+      map: "https://maps.google.com/?q=Edgewood+Park+Redwood+City",
+      food: [
+        ["Falafel Tazah", "https://maps.google.com/?q=Falafel+Tazah+Redwood+City"],
+        ["Mazra Mediterranean", "https://maps.google.com/?q=Mazra+Mediterranean+Redwood+City"]
+      ],
+      activities: [
+        ["Filoli Gardens", "https://maps.google.com/?q=Filoli+Historic+House+and+Garden"],
+        ["Downtown Redwood City", "https://maps.google.com/?q=Downtown+Redwood+City"]
+      ]
+    },
+    {
+      name: "Dusky Footed Woodrat and Cordilleras Trails",
+      distance: "3.7 mi",
+      elevation: "675 ft",
+      coords: [37.455, -122.305],
+      alltrails: "https://www.alltrails.com/trail/us/california/dusky-footed-woodrat-and-cordilleras-trails",
+      map: "https://maps.google.com/?q=Pulgas+Ridge+Open+Space+Preserve",
+      food: [
+        ["Mazra Mediterranean", "https://maps.google.com/?q=Mazra+Mediterranean+Redwood+City"],
+        ["Backhaus Bakery", "https://maps.google.com/?q=Backhaus+Bakery+San+Mateo"]
+      ],
+      activities: [
+        ["Pulgas Water Temple", "https://maps.google.com/?q=Pulgas+Water+Temple"],
+        ["Filoli Gardens", "https://maps.google.com/?q=Filoli+Historic+House+and+Garden"]
+      ]
     }
   ],
   summer: [
@@ -192,6 +224,38 @@ const hikes = {
       activities: [
         ["Hakone Gardens", "https://maps.google.com/?q=Hakone+Gardens"],
         ["Downtown Saratoga", "https://maps.google.com/?q=Saratoga+Downtown"]
+      ]
+    },
+    {
+      name: "Gray Whale Cove and Old San Pedro Mountain Loop",
+      distance: "3.7 mi",
+      elevation: "538 ft",
+      coords: [37.575, -122.515],
+      alltrails: "https://www.alltrails.com/trail/us/california/gray-whale-cove-and-old-san-pedro-mountain-loop",
+      map: "https://maps.google.com/?q=Gray+Whale+Cove+State+Beach",
+      food: [
+        ["Breakers Breakfast Lunch and Dinner", "https://maps.google.com/?q=Breakers+Breakfast+Lunch+and+Dinner+Pacifica"],
+        ["Shampas Pies", "https://maps.google.com/?q=Shampas+Pies+Moss+Beach"]
+      ],
+      activities: [
+        ["Devils Slide Trail", "https://maps.google.com/?q=Devils+Slide+Trail"],
+        ["Fitzgerald Marine Reserve", "https://maps.google.com/?q=Fitzgerald+Marine+Reserve"]
+      ]
+    },
+    {
+      name: "Tres Sendas to Stream Trail Loop",
+      distance: "3.1 mi",
+      elevation: "531 ft",
+      coords: [37.808, -122.165],
+      alltrails: "https://www.alltrails.com/trail/us/california/tres-sendas-to-stream-trail-loop",
+      map: "https://maps.google.com/?q=Redwood+Regional+Park",
+      food: [
+        ["Shawarmaji Oakland", "https://maps.google.com/?q=Shawarmaji+Oakland"],
+        ["Pomella Mediterranean", "https://maps.google.com/?q=Pomella+Oakland"]
+      ],
+      activities: [
+        ["Chabot Space Center", "https://maps.google.com/?q=Chabot+Space+Center"],
+        ["Joaquin Miller Park", "https://maps.google.com/?q=Joaquin+Miller+Park"]
       ]
     }
   ],
@@ -291,6 +355,38 @@ const hikes = {
         ["Stanford Dish", "https://maps.google.com/?q=Stanford+Dish"],
         ["Cantor Arts Center", "https://maps.google.com/?q=Cantor+Arts+Center"]
       ]
+    },
+    {
+      name: "Rogue Valley Wildcat Upper Wildcat Loop",
+      distance: "4.9 mi",
+      elevation: "577 ft",
+      coords: [37.334, -122.083],
+      alltrails: "https://www.alltrails.com/trail/us/california/rogue-valley-wildcat-and-upper-wildcat-loop-via-lower-meadow-trail",
+      map: "https://maps.google.com/?q=Rancho+San+Antonio+Open+Space+Preserve",
+      food: [
+        ["DishDash Sunnyvale", "https://maps.google.com/?q=DishDash+Sunnyvale"],
+        ["Zareens Mountain View", "https://maps.google.com/?q=Zareens+Mountain+View"]
+      ],
+      activities: [
+        ["Deer Hollow Farm", "https://maps.google.com/?q=Deer+Hollow+Farm"],
+        ["Computer History Museum", "https://maps.google.com/?q=Computer+History+Museum"]
+      ]
+    },
+    {
+      name: "Golden Eagle and Upper Ranch Loop",
+      distance: "3.8 mi",
+      elevation: "518 ft",
+      coords: [37.575, -121.915],
+      alltrails: "https://www.alltrails.com/trail/us/california/golden-eagle-trail-to-upper-ranch-trail",
+      map: "https://maps.google.com/?q=Vargas+Plateau+Regional+Park",
+      food: [
+        ["De Afghanan", "https://maps.google.com/?q=De+Afghanan+Fremont"],
+        ["Federicos Grill", "https://maps.google.com/?q=Federicos+Grill+Fremont"]
+      ],
+      activities: [
+        ["Niles Canyon Railway", "https://maps.google.com/?q=Niles+Canyon+Railway"],
+        ["Downtown Niles", "https://maps.google.com/?q=Niles+Fremont"]
+      ]
     }
   ],
   winter: [
@@ -387,6 +483,38 @@ const hikes = {
       activities: [
         ["Carmel by the Sea", "https://maps.google.com/?q=Carmel+by+the+Sea"],
         ["17 Mile Drive", "https://maps.google.com/?q=17+Mile+Drive"]
+      ]
+    },
+    {
+      name: "California Coastal Trail Lands End to Golden Gate Bridge",
+      distance: "4.5 mi",
+      elevation: "652 ft",
+      coords: [37.785, -122.505],
+      alltrails: "https://www.alltrails.com/trail/us/california/california-coastal-trail-lands-end-to-golden-gate-bridge",
+      map: "https://maps.google.com/?q=Lands+End+Trail",
+      food: [
+        ["Pakwan SF", "https://maps.google.com/?q=Pakwan+San+Francisco"],
+        ["The Halal Guys SF", "https://maps.google.com/?q=The+Halal+Guys+San+Francisco"]
+      ],
+      activities: [
+        ["Sutro Baths", "https://maps.google.com/?q=Sutro+Baths"],
+        ["Baker Beach", "https://maps.google.com/?q=Baker+Beach"]
+      ]
+    },
+    {
+      name: "Kirby Cove",
+      distance: "3.0 mi",
+      elevation: "610 ft",
+      coords: [37.828, -122.485],
+      alltrails: "https://www.alltrails.com/trail/us/california/kirby-cove",
+      map: "https://maps.google.com/?q=Kirby+Cove+Trail",
+      food: [
+        ["Falafel Hut Mill Valley", "https://maps.google.com/?q=Falafel+Hut+Mill+Valley"],
+        ["Sol Food", "https://maps.google.com/?q=Sol+Food+Mill+Valley"]
+      ],
+      activities: [
+        ["Battery Spencer", "https://maps.google.com/?q=Battery+Spencer"],
+        ["Bay Area Discovery Museum", "https://maps.google.com/?q=Bay+Area+Discovery+Museum"]
       ]
     }
   ]
