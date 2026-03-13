@@ -4,6 +4,7 @@ const hikes = {
       name: "Edgewood Trail Loop",
       distance: "3.3 mi",
       elevation: "587 ft",
+      coords: [37.465, -122.285],
       alltrails: "https://www.alltrails.com/trail/us/california/edgewood-trail-loop",
       map: "https://maps.google.com/?q=Edgewood+Park+Redwood+City",
       food: [
@@ -19,6 +20,7 @@ const hikes = {
       name: "Russian Ridge Loop",
       distance: "4 mi",
       elevation: "650 ft",
+      coords: [37.325, -122.205],
       alltrails: "https://www.alltrails.com/trail/us/california/russian-ridge-open-space-preserve",
       map: "https://maps.google.com/?q=Russian+Ridge+Open+Space",
       food: [
@@ -34,6 +36,7 @@ const hikes = {
       name: "Wunderlich Park Loop",
       distance: "3.2 mi",
       elevation: "679 ft",
+      coords: [37.425, -122.255],
       alltrails: "https://www.alltrails.com/trail/us/california/alambique-redwood-and-bear-gulch-loop",
       map: "https://maps.google.com/?q=Wunderlich+County+Park",
       food: [
@@ -49,6 +52,7 @@ const hikes = {
       name: "Arastradero Preserve Loop",
       distance: "4.4 mi",
       elevation: "597 ft",
+      coords: [37.385, -122.175],
       alltrails: "https://www.alltrails.com/trail/us/california/ohlone-trail-to-arastradero-creek-trail",
       map: "https://maps.google.com/?q=Arastradero+Preserve",
       food: [
@@ -64,6 +68,7 @@ const hikes = {
       name: "Coyote Valley Loop",
       distance: "3.9 mi",
       elevation: "620 ft",
+      coords: [37.175, -121.735],
       alltrails: "https://www.alltrails.com/trail/us/california/arrowhead-loop-trail--2",
       map: "https://maps.google.com/?q=Coyote+Valley+Open+Space+Preserve",
       food: [
@@ -79,6 +84,7 @@ const hikes = {
       name: "Foothills Preserve Loop",
       distance: "3.9 mi",
       elevation: "649 ft",
+      coords: [37.355, -122.185],
       alltrails: "https://www.alltrails.com/trail/us/california/chamise-toyon-and-fern-loop",
       map: "https://maps.google.com/?q=Foothills+Nature+Preserve",
       food: [
@@ -96,6 +102,7 @@ const hikes = {
       name: "Fall Creek Lime Kilns",
       distance: "3.4 mi",
       elevation: "511 ft",
+      coords: [37.055, -122.085],
       alltrails: "https://www.alltrails.com/trail/us/california/fall-creek-to-lime-kilns-trail",
       map: "https://maps.google.com/?q=Fall+Creek+Trail+Henry+Cowell",
       food: [
@@ -111,6 +118,7 @@ const hikes = {
       name: "Henry Cowell Redwoods Loop",
       distance: "4.4 mi",
       elevation: "682 ft",
+      coords: [37.045, -122.065],
       alltrails: "https://www.alltrails.com/trail/us/california/redwood-grove-loop-trail-and-cowell-highlights-loop",
       map: "https://maps.google.com/?q=Henry+Cowell+Redwoods+State+Park",
       food: [
@@ -126,6 +134,7 @@ const hikes = {
       name: "Nisene Marks Loop",
       distance: "4 mi",
       elevation: "603 ft",
+      coords: [37.015, -121.915],
       alltrails: "https://www.alltrails.com/trail/us/california/monte-toyon-vista-loop-via-aptos-rancho-trail",
       map: "https://maps.google.com/?q=Nisene+Marks+State+Park",
       food: [
@@ -141,6 +150,7 @@ const hikes = {
       name: "Redwood Regional Stream Trail",
       distance: "3.9 mi",
       elevation: "554 ft",
+      coords: [37.815, -122.165],
       alltrails: "https://www.alltrails.com/trail/us/california/redwood-regional-park--6",
       map: "https://maps.google.com/?q=Redwood+Regional+Park",
       food: [
@@ -156,6 +166,7 @@ const hikes = {
       name: "Long Ridge Loop",
       distance: "4.2 mi",
       elevation: "652 ft",
+      coords: [37.285, -122.155],
       alltrails: "https://www.alltrails.com/trail/us/california/long-ridge-loop",
       map: "https://maps.google.com/?q=Long+Ridge+Open+Space",
       food: [
@@ -171,6 +182,7 @@ const hikes = {
       name: "Sanborn Summit Rock",
       distance: "4 mi",
       elevation: "600 ft",
+      coords: [37.235, -122.065],
       alltrails: "https://www.alltrails.com/parks/us/california/sanborn-county-park",
       map: "https://maps.google.com/?q=Sanborn+County+Park",
       food: [
@@ -188,6 +200,7 @@ const hikes = {
       name: "Rancho San Antonio Loop",
       distance: "4.6 mi",
       elevation: "616 ft",
+      coords: [37.335, -122.085],
       alltrails: "https://www.alltrails.com/trail/us/california/high-meadow-loop-via-lower-meadow-trail",
       map: "https://maps.google.com/?q=Rancho+San+Antonio+Open+Space",
       food: [
@@ -203,6 +216,7 @@ const hikes = {
       name: "Saratoga Gap Loop",
       distance: "4.5 mi",
       elevation: "636 ft",
+      coords: [37.255, -122.125],
       alltrails: "https://www.alltrails.com/trail/us/california/saratoga-gap-trail-to-achistaca-trail-loop",
       map: "https://maps.google.com/?q=Saratoga+Gap+Open+Space",
       food: [
@@ -216,8 +230,9 @@ const hikes = {
     },
     {
       name: "Los Gatos Creek Loop",
-      distance: "4 mi",
+      distance: "3.725, -121.975",
       elevation: "521 ft",
+      coords: [37.225, -121.975],
       alltrails: "https://www.alltrails.com/trail/us/california/los-gatos-creek-trail-to-jones-trail-loop",
       map: "https://maps.google.com/?q=St+Josephs+Hill+Open+Space",
       food: [
@@ -233,6 +248,7 @@ const hikes = {
       name: "Almaden Quicksilver Loop",
       distance: "3.6 mi",
       elevation: "692 ft",
+      coords: [37.175, -121.825],
       alltrails: "https://www.alltrails.com/trail/us/california/hacienda-randol-and-buena-vista-trail-loop",
       map: "https://maps.google.com/?q=Almaden+Quicksilver+County+Park",
       food: [
@@ -248,6 +264,7 @@ const hikes = {
       name: "Henry Coe Frog Lake",
       distance: "4.5 mi",
       elevation: "698 ft",
+      coords: [37.185, -121.545],
       alltrails: "https://www.alltrails.com/trail/us/california/frog-lake-loop-trail",
       map: "https://maps.google.com/?q=Henry+Coe+State+Park",
       food: [
@@ -263,6 +280,7 @@ const hikes = {
       name: "Monte Bello Preserve",
       distance: "4 mi",
       elevation: "650 ft",
+      coords: [37.325, -122.175],
       alltrails: "https://www.alltrails.com/parks/us/california/monte-bello-open-space-preserve",
       map: "https://maps.google.com/?q=Monte+Bello+Open+Space+Preserve",
       food: [
@@ -280,6 +298,7 @@ const hikes = {
       name: "Lands End Trail",
       distance: "3.4 mi",
       elevation: "547 ft",
+      coords: [37.785, -122.505],
       alltrails: "https://www.alltrails.com/trail/us/california/lands-end-trail",
       map: "https://maps.google.com/?q=Lands+End+Trail",
       food: [
@@ -295,6 +314,7 @@ const hikes = {
       name: "Tilden Wildcat Gorge",
       distance: "3.4 mi",
       elevation: "511 ft",
+      coords: [37.895, -122.245],
       alltrails: "https://www.alltrails.com/trail/us/california/wildcat-gorge-trail",
       map: "https://maps.google.com/?q=Tilden+Regional+Park",
       food: [
@@ -310,6 +330,7 @@ const hikes = {
       name: "Tennessee Valley Trail",
       distance: "3.4 mi",
       elevation: "550 ft",
+      coords: [37.865, -122.535],
       alltrails: "https://www.alltrails.com/trail/us/california/tennessee-valley-trail",
       map: "https://maps.google.com/?q=Tennessee+Valley+Trailhead",
       food: [
@@ -325,6 +346,7 @@ const hikes = {
       name: "Mount Tam Cataract Falls",
       distance: "4.3 mi",
       elevation: "670 ft",
+      coords: [37.915, -122.615],
       alltrails: "https://www.alltrails.com/trail/us/california/cataract-falls-trail",
       map: "https://maps.google.com/?q=Cataract+Falls+Mount+Tam",
       food: [
@@ -340,6 +362,7 @@ const hikes = {
       name: "Point Lobos Loop",
       distance: "3.5 mi",
       elevation: "500 ft",
+      coords: [36.515, -121.945],
       alltrails: "https://www.alltrails.com/trail/us/california/cypress-grove-trail",
       map: "https://maps.google.com/?q=Point+Lobos+State+Reserve",
       food: [
@@ -355,6 +378,7 @@ const hikes = {
       name: "Coyote Hills Bay View",
       distance: "3.2 mi",
       elevation: "250 ft",
+      coords: [37.555, -122.095],
       alltrails: "https://www.alltrails.com/trail/us/california/bayview-and-meadowlark-trail-loop",
       map: "https://maps.google.com/?q=Coyote+Hills+Regional+Park",
       food: [
@@ -370,6 +394,7 @@ const hikes = {
       name: "Sibley Volcanic Loop",
       distance: "3.5 mi",
       elevation: "593 ft",
+      coords: [37.845, -122.195],
       alltrails: "https://www.alltrails.com/trail/us/california/round-top-and-volcanic-trail-loop",
       map: "https://maps.google.com/?q=Sibley+Volcanic+Regional+Preserve",
       food: [
@@ -385,6 +410,7 @@ const hikes = {
       name: "Joaquin Miller Big Trees",
       distance: "4.6 mi",
       elevation: "950 ft",
+      coords: [37.815, -122.185],
       alltrails: "https://www.alltrails.com/trail/us/california/sequoia-bayview-and-big-trees-loop",
       map: "https://maps.google.com/?q=Joaquin+Miller+Park",
       food: [
@@ -400,6 +426,7 @@ const hikes = {
       name: "Mori Point Loop",
       distance: "2.5 mi",
       elevation: "396 ft",
+      coords: [37.615, -122.495],
       alltrails: "https://www.alltrails.com/trail/us/california/mori-point-loop-trail",
       map: "https://maps.google.com/?q=Mori+Point+Pacifica",
       food: [
@@ -413,6 +440,43 @@ const hikes = {
     }
   ]
 };
+
+let map;
+
+function initMap() {
+  // Center of Bay Area
+  map = L.map('hike-map').setView([37.5, -122.1], 9);
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  Object.values(hikes).flat().forEach(h => {
+    if (h.coords) {
+      const marker = L.marker(h.coords).addTo(map);
+      
+      const popupContent = `
+        <div class="map-popup-content">
+          <span class="map-popup-title">${h.name}</span>
+          <a href="#${h.name.toLowerCase().replace(/\s+/g, '-')}" class="map-popup-btn" onclick="scrollToHike('${h.name}')">View Details</a>
+        </div>
+      `;
+      
+      marker.bindPopup(popupContent);
+    }
+  });
+}
+
+function scrollToHike(name) {
+  const cards = document.querySelectorAll(".card");
+  cards.forEach(c => {
+    c.classList.remove("highlight-card");
+    if (c.dataset.name === name.toLowerCase()) {
+      c.scrollIntoView({ behavior: "smooth", block: "center" });
+      c.classList.add("highlight-card");
+    }
+  });
+}
 
 function build() {
   const app = document.getElementById("app");
@@ -439,6 +503,8 @@ function build() {
       const card = document.createElement("div");
       card.className = "card";
       card.dataset.name = h.name.toLowerCase();
+      // Add ID for direct linking
+      card.id = h.name.toLowerCase().replace(/\s+/g, '-');
 
       let foodHtml = h.food.map(f => `
         <a href="${f[1]}" target="_blank" class="item-link">
@@ -490,8 +556,8 @@ function build() {
     app.appendChild(section);
   });
 
-  // Initialize navigation highlighting
   initNav();
+  initMap();
 }
 
 function initNav() {
@@ -522,15 +588,7 @@ function randomHike() {
   Object.values(hikes).forEach(s => all = all.concat(s));
   
   const pick = all[Math.floor(Math.random() * all.length)];
-  const cards = document.querySelectorAll(".card");
-  
-  cards.forEach(c => {
-    c.classList.remove("highlight-card");
-    if (c.dataset.name === pick.name.toLowerCase()) {
-      c.scrollIntoView({ behavior: "smooth", block: "center" });
-      c.classList.add("highlight-card");
-    }
-  });
+  scrollToHike(pick.name);
 }
 
 document.getElementById("random-hike-btn").onclick = randomHike;

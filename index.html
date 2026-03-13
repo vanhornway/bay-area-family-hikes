@@ -12,6 +12,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  
   <!-- Main Stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
@@ -27,6 +30,14 @@
   </header>
 
   <main class="container">
+    <!-- Interactive Map Section -->
+    <section class="map-section">
+      <div id="hike-map" class="hike-map"></div>
+      <div class="map-overlay">
+        <p>📍 Click a pin to jump to hike details</p>
+      </div>
+    </section>
+
     <nav class="season-nav" aria-label="Season navigation">
       <ul class="season-list">
         <li><a href="#spring" class="season-link">Spring</a></li>
@@ -49,6 +60,9 @@
     <p>&copy; 2026 Bay Area Sunday Adventures. Happy Trails!</p>
   </footer>
 
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  
   <!-- App Script -->
   <script src="script.js"></script>
 </body>
